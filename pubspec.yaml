@@ -1,0 +1,36 @@
+name: growtopia_gourmet
+description: "Clean minimalist Flutter mobile food catalog app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: CenturyGothic
+      fonts:
+        - asset: assets/fonts/CenturyGothic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/CenturyGothic-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/CenturyGothic-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/CenturyGothic-BoldItalic.ttf
+          weight: 700
+          style: italic
